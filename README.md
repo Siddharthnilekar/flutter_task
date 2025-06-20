@@ -17,9 +17,8 @@ As part of the interview, the following was implemented:
 
 ## 📽️ Demo Video
 
-<video src="bank_app/assets/demo_video.mp4" controls width="100%"></video>
-
-If the embedded video doesn’t work, [click here to download/view it](bank_app/assets/demo_video.mp4).
+<video src="bank_app/assets/demo_video.mp4" controls></video>
+🎥 [Watch Demo Video on Google Drive]([https://drive.google.com/file/d/your-id/view?usp=sharing](https://drive.google.com/file/d/1MUE-tEyWRZJyGyRAmdoPFXSLlAFZKsbY/view?usp=sharing))
 
 ---
 
