@@ -1,12 +1,40 @@
-# 💳 Flutter Interview Assignment: Bank App with Transaction Module
+# 💼 Flutter Interview Assignment
 
-This repository contains a **Flutter Host App** (`bank_app`) and a **Flutter Module** (`transaction_module`) created as part of an interview assignment.
+## ✅ Task Completed
 
-The goal of this project is to demonstrate **modular architecture** and **bidirectional data transfer** using Flutter's `Add-to-App` approach with seamless UI/UX integration.
+As part of the interview, the following was implemented:
+
+- Created a **Flutter Host App** (`bank_app`) and a **Flutter Module** (`transaction_module`)
+- Integrated the module into the host using a **library dependency approach**
+- Implemented **bidirectional data transfer**:
+  - Host passes `accountId` and `balance` to the module
+  - Module returns `transactionId` to the host
+- Used `Navigator.push()` and `Navigator.pop()` for data communication
+- Ensured proper **lifecycle management** within Flutter’s widget tree
+- Provided a **working APK** and a **demo video**
 
 ---
-## 🎥 Demo Video
 
-<video src="bank_app/assets/demo_video.mp4" controls width="100%" />
+## 📽️ Demo Video
 
-> 📌 _Click play to watch the host-module integration in action._
+<video src="bank_app/assets/demo_video.mp4" controls width="100%"></video>
+
+If the embedded video doesn’t work, [click here to download/view it](bank_app/assets/demo_video.mp4).
+
+---
+
+## 📦 APK
+
+- File: [`app-release.apk`](app-release.apk)
+- Tested on Android Emulator (Pixel 6, API 34) and physical devices
+
+---
+
+## 📂 Repository Structure
+
+Interview_task/
+├── bank_app/
+│ └── assets/
+│ └── demo_video.mp4
+├── transaction_module/
+├── app-release.apk
