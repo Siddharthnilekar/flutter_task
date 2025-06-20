@@ -1,0 +1,16 @@
+name: transaction_module
+description: A Flutter module for transaction history
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  module:
+    androidX: true
+    androidPackage: com.example.transaction_module
+    iosBundleIdentifier: com.example.transactionModule
